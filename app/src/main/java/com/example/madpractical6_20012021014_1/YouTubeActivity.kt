@@ -8,7 +8,7 @@ class YouTubeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_you_tube)
-        val youTubeId=""
+        val youTubeId="nHTFqJK_JfA"
         val myWebView=findViewById<WebView>(R.id.webView)
         val settings=myWebView.settings
         settings.javaScriptEnabled=true
